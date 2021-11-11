@@ -35,21 +35,16 @@ linters:
   disable-all: true
   enable:
     - errcheck
-    - govet 
-    - unused 
-    - gocyclo 
-    - revive 
-    - varcheck 
-    - structcheck 
+    - govet
+    - unused
+    - varcheck
+    - structcheck
     - ineffassign
-    - unconvert 
-    - goconst 
-    - gosimple 
-    - staticcheck 
-    - gosec
+    - gosimple
+    - staticcheck
     - typecheck
     - deadcode
-  
+
 run:
   deadline: 10m
   skip-dirs:
